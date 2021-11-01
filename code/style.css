@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap')
+
+
+.header{
+    display: flex;
+}
+
+body{
+    font-size: 1.2rem;
+    background: #eee;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+*{
+    font-family:'Nunito' ,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(183, 113, 13, 0.1);
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2f1a1a;
+}
+.header .logo i{
+    color: orange;
+}
+.header .navbar a{
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    color: #2f1a1a;
+}
+.header .navbar a:hover{
+    color: orange;
+}
+.header .icon div{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #2f1a1a;
+    width: 3rem;
+    height: 3rem;
+    background: #eee;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 3rem;
+}
+.header .icon div:hover{
+    background: orange;
+    color: #fff;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 0;
+}
+.home .content{
+    text-align: center;
+}
+.home .content h3{
+    color: #2f1a1a;
+    font-size: 2.2rem;
+}
+.home .content h3 span{
+    color:orange;
+}
+.home .content{
+    font-size: 1rem;
+    line-height: 2.8rem;
+    color: #727272;
+}
+.home .content .btn{
+    font-size: 1rem;
+    padding: 0.6rem 1.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background: orange;
+    color: #fff;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+    color: #2f1a1a;
+    padding-bottom: 2rem;
+}
+.heading span{
+    color: #fff;
+    background: orange;
+    padding: 0.5rem 2rem;
+    clip-path: polygon(100% 0, 85% 50%, 100% 100%, 0% 100%, 15% 50%, 0% 0%)
+}
+
+.feature{
+    padding: 2rem 9%;
+}
+
+.feature .box-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.feature .box-container .box{
+    padding: 2rem 2rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, alpha);
+}
+.feature .box-container .box h3{
+    font-size: 2rem;
+    line-height: 1.8rem;
+}
+.feature .box-container .box p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+}
+.btn{
+    cursor: pointer;
+    background: none;
+    color: #2f1a1a;
+    border: 0.2rem solid #2f1a1a ;
+    font-size: 1.7rem;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.btn:hover{
+    background: orange;
+    color: #fff;
+}
+.feature .box-container .box-1{
+    padding-top: 60px;
+}
+
+.cotegory .box-container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+
+}
+.cotegory .box-container .box{
+    padding: 2rem 2rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, alpha);
+}
+.cotegory .box-container .box h3{
+    font-size: 2rem;
+    line-height: 1.8rem;
+}
+.cotegory .box-container .box p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+}
+.cotegory{
+    padding: 1rem;
+}
